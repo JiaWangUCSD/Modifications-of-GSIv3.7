@@ -1,9 +1,9 @@
-This code in GSIv3.7 is modified to revise the radial velocity thinning strategy.
+This subroutine is modified in GSIv3.7 to revise the radial velocity thinning strategy.
 1.	read_l2bufr_mod.f90: revise the thinning strategy so that the final super-observations are at a resolution comparable to the D02 model grid.
 
 
 
-These codes are modifications made into GSIv3.7 to enable direct asimilation of reflectivity following the method proposed by Wang and Wang (2017).
+These subroutines are modified or added in GSIv3.7 to enable direct asimilation of reflectivity following the method proposed by Wang and Wang (2017).
 
 Wang, Yongming, and Xuguang Wang. "Direct assimilation of radar reflectivity without tangent linear and adjoint of the nonlinear observation operator in the GSI-based EnVar system: Methodology and experiment with the 8 May 2003 Oklahoma City tornadic supercell." Monthly Weather Review 145.4 (2017): 1447-1471.
 
